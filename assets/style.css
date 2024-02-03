@@ -24,9 +24,17 @@ h1 {
 }
 
 #nav-menu {
-    font-size: 125%;
+    font-size: 115%;
     letter-spacing: 5px;
     list-style-type: none;
+}
+
+#nav-menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 /* Targeting header in html */
