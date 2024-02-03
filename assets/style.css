@@ -24,8 +24,8 @@ h1 {
 }
 
 #nav-menu {
-    font-size: 115%;
-    letter-spacing: 5px;
+    font-size: 100%;
+    letter-spacing: 3px;
     list-style-type: none;
 }
 
@@ -84,10 +84,43 @@ main {
     background-color: blue;
     /* Pushes footer down by taking up any extra space*/
     flex: 1 0 auto;
-    margin-top: 215px;
+    margin-top: 140px;
 }
 
 /* Targeting footer in html*/
 footer {
     background-color: purple;
+}
+
+/* media query big device screens 768px and up */
+@media screen and (min-width: 768px) {
+    /* Any css wrote in this section only applies to larger screen sizes */
+    nav {
+        display: block;
+        box-shadow: none;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #nav {
+        display: flex;
+    }
+
+    #nav >li {
+        padding-left: 1rem;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        margin: 0, 0.5rem;
+        line-height: 75px;
+    }
+    main {
+        margin-top: 140px;
+    }
 }
