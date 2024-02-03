@@ -37,6 +37,17 @@ h1 {
     border-bottom: 1px solid black;
 }
 
+nav {
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 3px 3px #3a3a3a;
+    /* Hides nav bar */
+    display: none;
+}
+
 /* Targeting header in html */
 header {
     background-color: aliceblue;
