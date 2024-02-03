@@ -23,6 +23,10 @@ h1 {
 /* Targeting header in html */
 header {
     background-color: aliceblue;
+    padding: 0 2rem;
+    position: fixed;
+    /* Layered ontop */
+    z-index: 99;
 }
 
 /* Targeting main in html*/
