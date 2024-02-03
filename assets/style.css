@@ -1,4 +1,4 @@
-/* Google fonts import */
+/* Google fonts import Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 /* asterisk wildcard overrides styles from broweser */
 * {
@@ -46,6 +46,10 @@ nav {
     box-shadow: 0 3px 3px #3a3a3a;
     /* Hides nav bar */
     display: none;
+}
+
+#toggle:checked~nav {
+    display: block;
 }
 
 /* Targeting header in html */
