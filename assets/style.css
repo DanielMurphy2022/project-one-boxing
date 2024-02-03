@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
 /* Targeting header in html */
 header {
     background-color: aliceblue;
@@ -13,6 +20,8 @@ header {
 /* Targeting main in html*/
 main {
     background-color: blue;
+    /* Pushes footer down by taking up any extra space*/
+    flex: 1 0 auto;
 }
 
 /* Targeting footer in html*/
