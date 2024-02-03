@@ -103,11 +103,11 @@ footer {
         padding-right: 1rem;
     }
 
-    #nav {
+    #nav-menu {
         display: flex;
     }
 
-    #nav >li {
+    #nav-menu >li {
         padding-left: 1rem;
     }
 
@@ -122,5 +122,12 @@ footer {
     }
     main {
         margin-top: 140px;
+    }
+}
+
+/* Media query for screens 992px and more */ 
+@media screen and (min-width: 992px) {
+    #nav-menu a:hover {
+        border-bottom: 1.5px solid black;
     }
 }
