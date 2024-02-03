@@ -52,6 +52,16 @@ nav {
     display: block;
 }
 
+#toggle-nav {
+    /* Making icon bigger for user to click */
+    font-size: 3rem;
+}
+
+#toggle {
+    /* Removed checkbox */
+    display: none;
+}
+
 /* Targeting header in html */
 header {
     background-color: aliceblue;
