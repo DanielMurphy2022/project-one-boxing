@@ -18,6 +18,15 @@ body {
 
 h1 {
     font-family: "Oswald",sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#nav-menu {
+    font-size: 125%;
+    letter-spacing: 5px;
+    list-style-type: none;
 }
 
 /* Targeting header in html */
@@ -27,6 +36,14 @@ header {
     position: fixed;
     /* Layered ontop */
     z-index: 99;
+    box-shadow: 0 3px 3px #3a3a3a;
+    width: 100%;
+}
+
+header a {
+    /* Taking the underline from Home, Gallery and sign up on nav bar */
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Targeting main in html*/
