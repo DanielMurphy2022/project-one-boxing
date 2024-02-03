@@ -84,6 +84,7 @@ main {
     background-color: blue;
     /* Pushes footer down by taking up any extra space*/
     flex: 1 0 auto;
+    margin-top: 215px;
 }
 
 /* Targeting footer in html*/
