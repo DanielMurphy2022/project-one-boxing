@@ -16,7 +16,7 @@ body {
     font-weight: 100;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: "Oswald",sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -90,6 +90,23 @@ main {
     height: 600px;
     width: 100%;
     background: url(../assets/images/Project\ picture.webp) no-repeat center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 107, 106, .6);
+    font-size: 150%;
+    position: absolute;
+    bottom: 20px;
+    width: 40%;
+    min-height: 175px;
+    padding-top: 30px;
+    padding-left: 12px;
+    text-align: center;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: white;
 }
 
 /* Targeting footer in html */
