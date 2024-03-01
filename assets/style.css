@@ -19,7 +19,7 @@ body {
 h1, h2, h3 {
     font-family: "Oswald",sans-serif;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: black;
 }
 
@@ -109,10 +109,11 @@ main {
     color: white;
 }
 
-/* Gallery */
-#photos img {
+/* About */
+#about-img {
     width: 100%;
 }
+
 
 
 /* Targeting footer in html */
