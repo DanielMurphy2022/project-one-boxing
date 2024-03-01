@@ -109,6 +109,12 @@ main {
     color: white;
 }
 
+/* Gallery */
+#photos img {
+    width: 50%;
+}
+
+
 /* Targeting footer in html */
 #social-media {
     text-align: center;
