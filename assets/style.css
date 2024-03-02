@@ -114,7 +114,13 @@ main {
     width: 100%;
 }
 
-
+#signup-form {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    font-size: large;
+    justify-content: space-evenly;
+}
 
 /* Targeting footer in html */
 #social-media {
