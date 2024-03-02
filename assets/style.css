@@ -86,6 +86,12 @@ main {
     margin-top: 140px;
 }
 
+table {
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+}
+
 #main-pic {
     height: 600px;
     width: 100%;
@@ -107,19 +113,6 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: white;
-}
-
-/* About */
-#about-img {
-    width: 100%;
-}
-
-#signup-form {
-    text-align: center;
-    display: flex;
-    position: absolute;
-    font-size: large;
-    justify-content: space-evenly;
 }
 
 /* Targeting footer in html */
