@@ -47,21 +47,40 @@
                 <label for="email_address">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
-                <div class="radio-buttons">
+                <label for="phone_number">Phone Number</label>
+                <input type="phone" name="phone_number" id="phone_number" class="text-input" required>
+                </div>
+                <div class="checkbox">
                     <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                        <label for="health">Do you have any health conditions?</label>
+                        <label for="yes">Yes</label>
+                        <input type="checkbox" name="yes" id="yes" value="yes" required>
+                        <label for="no">No</label>
+                        <input type="checkbox" name="no" id="no" value="no" required>
                     </div>
                     <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                        <label for="class">Have you ever tried boxing before?</label>
+                        <label for="yes">Yes</label>
+                        <input type="checkbox" name="yes" id="yes" value="yes" required>
+                        <label for="no">No</label>
+                        <input type="checkbox" name="no" id="no" value="no" required>
+                    </div>
+                </div>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="boxing">Boxing</label>
+                        <input type="radio" name="boxing_class" id="boxing" value="boxing" required checked>
+                    </div>
+                    <div>
+                        <label for="boxercise">Boxercise</label>
+                        <input type="radio" name="boxercise_class" id="boxercise" value="boxercise" required>
                     </div>
                     <div>
                         <label for="both">Both</label>
                         <input type="radio" name="running_preference" id="both" value="both" required>
                     </div>
                 </div>
-                <button type="submit" class="join-button">Let's Run!</button>
+                <button type="submit" class="join-button">Let's learn to box!</button>
             </form>
         </section>
     </main>
