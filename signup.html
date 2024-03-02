@@ -29,18 +29,31 @@
                 <!-- active shows te user where they are -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Who are we?</a></li>
-                <li><a href="tryaclass.html" class="active">Try A Class!</a></li>
+                <li><a href="signup.html" class="active">Sign up</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="signup">
-            <form id="signup" method="post" action="signup">
-                <h2>Sign up to become a champion!</h2>
-                <!-- Creating a sign up form -->
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" id="first_name" required>
+        <section>
+            <div class="signup-form">
+                <h2>Sign Up</h2>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+        
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+        
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
         </section>
     </main>
 
